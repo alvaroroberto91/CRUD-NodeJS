@@ -6,17 +6,28 @@ An app developed to improve Node.JS skills!
 ## Dependencies
 
 ```sh
-express, express-async-erros, typeorm, class-transformer, reflect-metadata, sqlite3
+yarn add express express-async-erros typeorm class-transformer reflect-metadata sqlite3
 ```
 
 ## Dev Dependencies
 
 ```sh
-@types/express, @types/uuid, ts-node-dev, typescript, uuid
+yarn add @types/express @types/uuid ts-node-dev typescript uuid -D
 ```
 
 ## Scripts
 
+Run -> ts-node-dev src/server.ts
 ```sh
-dev -> ts-node-dev src/server.ts | typeorm -> ts-node-dev ./node_modules/typeorm/cli.js
+yarn dev
+```
+
+Run Migration to create a Table in DB
+```sh
+yarn typeorm migration:run
+```
+
+Drop created Table
+```sh
+yarn typeorm schema:drop
 ```
