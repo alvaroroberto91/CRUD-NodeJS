@@ -17,6 +17,11 @@ yarn add @types/express @types/uuid ts-node-dev typescript uuid -D
 
 ## Scripts
 
+Start TSC:
+```sh
+yarn tsc --init
+```
+
 Execute ts-node-dev src/server.ts:
 ```sh
 yarn dev
