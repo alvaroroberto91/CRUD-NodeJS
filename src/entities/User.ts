@@ -10,12 +10,6 @@ class User {
     @Column()
     name: string;
 
-    @Column()
-    email: string;
-
-    @Column()
-    telefone: number;
-
     constructor(){
         if(!this.id) {
             this.id = uuid();

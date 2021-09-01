@@ -1,10 +1,10 @@
 import { Request, Response } from "express";
-import { ListUserServise } from "../services/ListUserService";
+import { ListUserService } from "../services/ListUserService";
 
 class ListUserController {
     async handle(request: Request, response: Response) {
 
-        const listUserController = new ListUserServise();
+        const listUserController = new ListUserService();
 
         const user = await listUserController.execute();
 
