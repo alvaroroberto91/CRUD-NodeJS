@@ -8,6 +8,8 @@ class ListUserController {
 
         const user = await listUserController.execute();
 
+        console.log(user);
+
         return response.json(user);
     }
 }

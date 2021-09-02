@@ -45,9 +45,16 @@ yarn typeorm schema:drop
 
 * POST Method
     * /user -> input Json format
+        * name
+    */contacts -> input Json format
+        * user_id
+        * value
+        * type (email, phone)
+        * primary (Is a primary contact? Boolean type);
 
 * PUT Method
-    * /update -> input Json format
+    * /update/:id -> input Json format
+        * name
 
 * DELETE Method
-    * /delete
+    * /delete/:id

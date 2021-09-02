@@ -12,7 +12,7 @@ class Contact {
     user_id: string;
 
     @JoinColumn({name: "user_id"})
-    @ManyToOne(() => User)
+    @ManyToOne(() => User, user => user.id)
     user: User;
 
     @Column()
