@@ -46,7 +46,7 @@ yarn typeorm schema:drop
 * POST Method
     * /user -> input Json format
         * name
-    */contacts -> input Json format
+    * /contacts -> input Json format
         * user_id
         * value
         * type (email, phone)
