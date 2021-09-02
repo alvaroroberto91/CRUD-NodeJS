@@ -6,13 +6,13 @@ An app developed to improve Node.JS skills!
 ## Dependencies
 
 ```sh
-yarn add express express-async-erros typeorm class-transformer reflect-metadata sqlite3
+yarn add express express-async-erros typeorm class-transformer reflect-metadata sqlite3 cors
 ```
 
 ## Dev Dependencies
 
 ```sh
-yarn add @types/express @types/uuid ts-node-dev typescript uuid -D
+yarn add @types/express @types/uuid @types/cors ts-node-dev typescript uuid -D
 ```
 
 ## Scripts
